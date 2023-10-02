@@ -1,0 +1,125 @@
+/* Page properties */
+body {
+	background-color: black;
+}
+
+/* Header */
+h1,h2 {
+	color: khaki; 
+}
+
+/* Home Page links */
+.home-link  {
+  padding: 0.8em 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: darkseagreen;
+  font-size:1.2em;
+  font-weight:bold;
+  text-decoration: none;
+  background-color: deeppink;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.home-link:hover  {
+	font-weight: bolder;
+	color: cornsilk;
+}
+
+.home-body-link  {
+	text-decoration: none;
+	font-weight: bold;
+	color: khaki;
+}
+
+.home-body-link:hover  {
+	font-weight: bolder;
+	color: lightseagreen;
+}
+
+.home-body  {
+	font-size: 1.4em;
+	color: khaki;
+	margin: 100px 20px;
+}
+
+.home-link-2  {
+  font-size: 1em;
+  color: black;
+  background-color: lightseagreen;
+}
+
+/* Labels */
+.header-label {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+	cursor: default;
+	color: deeppink;
+	position: relative;
+	top: 25px;
+}
+
+.slider-label {
+	text-align: center;
+	margin-left: 50px;
+	color:lightseagreen;
+	position: relative;
+	bottom: 10px;
+}
+
+/* radio buttons */
+input[type='radio']{
+    width: 18px;
+    height: 18px;
+	margin-right:8px;
+	cursor: pointer;
+	accent-color:darkseagreen;
+}
+
+
+label{
+    cursor: pointer;
+	color: lightseagreen;
+}
+label:hover{
+	font-weight: 900;
+}
+
+label:has(> input[type='radio']:checked)	{
+	color:darkseagreen;
+	font-weight:900;
+	font-size:1.02em;
+}
+
+.copy-button  {
+	color: khaki;
+	margin: 30px 100px;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.copy-button:hover  {
+	color: lightseagreen;
+}
+
+/* Table */
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: cornsilk;
+}
+th {color:lightseagreen; padding: 0.5em; text-align:center; font-size:1.2em;}
+td {color:cornsilk; padding: 0.25em; text-align:center;}
+tr {background-color: #222222;}
+tr:hover {background-color: deeppink;}
+
+.table-div{
+	overflow: auto;
+	margin: auto;
+}
+
+
+/* Graph */
+.graph-div{border:10px solid black; margin-bottom:10px;}
